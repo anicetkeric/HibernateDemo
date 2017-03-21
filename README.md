@@ -21,7 +21,7 @@ Hibernate an open source Java persistence framework project. Perform powerful ob
 * execute CRUD methods
 
 
-###	Dependencies (POM.xml)
+####	Dependencies (POM.xml)
 ```xml
    <dependency>
      <groupId>org.hibernate</groupId>
@@ -40,3 +40,7 @@ Hibernate an open source Java persistence framework project. Perform powerful ob
     <version>5.1.39</version>
 </dependency> 
 ```
+
+#### Add the configuration file hibernate.cfg.xml
+The hibernate.cfg.xml file should be in root directory of the classpath of your project. If you using Maven then make sure it should be like **src > resources > hibernate.cfg.xml**.
+
