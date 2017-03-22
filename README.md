@@ -92,3 +92,23 @@ public class Book implements Serializable {
 }
 
 ```
+
+####	let’s create a DAO class BookDAO:
+```java
+   public void saveBook(String title,String author,double price){
+      
+    }
+	
+    public List<Book> getBooks(){
+   
+    }
+	
+    
+    public int updateBook(Book b){
+   
+   }
+    
+    public int deleteBook(int id) {
+    
+    }
+```	
