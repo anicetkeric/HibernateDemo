@@ -44,3 +44,51 @@ Hibernate an open source Java persistence framework project. Perform powerful ob
 #### Add the configuration file hibernate.cfg.xml
 The hibernate.cfg.xml file should be in root directory of the classpath of your project. If you using Maven then make sure it should be like **src > resources > hibernate.cfg.xml**.
 
+####	Create entity Book class
+```java
+@Entity
+@Table(name="BOOK")
+public class Book implements Serializable {
+
+	
+	@Id
+	 @GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int id;
+	private String title;
+	
+	private String author;
+	private double price;
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	
+
+	
+	
+	
+}
+
+```
