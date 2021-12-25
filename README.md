@@ -37,8 +37,9 @@ Hibernate an open source Java persistence framework project. Perform powerful ob
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
-    <version>5.1.39</version>
-</dependency> 
+    <version>8.0.16</version>
+</dependency>
+
 ```
 
 #### Add the configuration file hibernate.cfg.xml
